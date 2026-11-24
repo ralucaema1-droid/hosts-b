@@ -1,0 +1,12 @@
+{
+  "permission": {
+    "bash": {
+      "*": "ask",
+      "git status": "allow",
+      "git diff": "allow"
+    },
+    "edit": { "*": "ask" },
+    "webfetch": "deny",
+    "external_directory": "deny"
+  }
+}
